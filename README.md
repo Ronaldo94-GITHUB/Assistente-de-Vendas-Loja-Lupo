@@ -3,6 +3,8 @@ Projeto Prompt Dio - LUPO
 
 Este projeto é um framework inteligente para atendimento comercial em lojas de moda, com foco na marca Lupo. Ele simula um assistente de vendas capaz de entender o interesse do cliente, diagnosticar oportunidades, sugerir ofertas e gerar mensagens prontas para canais como WhatsApp e Instagram.
 
+![Capa do Projeto](assets/github-cover.png)
+
 ---
 ```
 AssistenteDeVendas-Lupo/
@@ -61,6 +63,10 @@ Apresentação de valor em 2 formatos: bom/ótimo/premium ou custo-benefício vs
 
 ---
 
+![Loja Lupo](assets/loja-lupo.png)
+
+---
+
 🎯 Gatilhos de Oportunidade
 O sistema reconhece automaticamente os seguintes gatilhos:
 
@@ -98,6 +104,10 @@ Instagram
 
 Presente
 “Oi! 🎁 Se você procura presente, temos kits Lupo prontos que unem conforto e estilo, já com embalagem especial. Quer que eu te mostre algumas opções?”
+
+---
+
+![Loja Lupo](assets/loja-lupo.png)
 
 ---
 
