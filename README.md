@@ -1,41 +1,55 @@
 # Assistente-de-Vendas-Loja-Lupo
 Projeto Prompt Dio - LUPO
 
-Este projeto é um framework inteligente para atendimento comercial em lojas de moda, com foco na marca Lupo. Ele simula um assistente de vendas capaz de entender o interesse do cliente, diagnosticar oportunidades, sugerir ofertas e gerar mensagens prontas para canais como WhatsApp e Instagram.
+é um framework inteligente para atendimento comercial em lojas de moda, com foco na marca **Lupo**.  
+Ele simula um assistente de vendas capaz de:
+
+- Diagnosticar oportunidades com base no interesse do cliente  
+- Sugerir ofertas principais e complementares (upsell e cross-sell)  
+- Gerar mensagens prontas para WhatsApp e Instagram  
+- Aplicar estratégias de ancoragem sem depender de preços exatos  
+- Adaptar o atendimento a diferentes perfis e ocasiões (academia, presente, trabalho, conforto diário)
+
+--- 
 
 ![Capa do Projeto](assets/github-cover.png)
 
 ---
 ```
+## 📂 Estrutura do Projeto
+
 AssistenteDeVendas-Lupo/
+├── data/                   # Dados estruturados
+│   ├── framework.json       # Lógica central do assistente
+│   ├── mensagens.json       # Mensagens prontas para canais
+│   └── exemplos.json        # Casos simulados
 │
-├── README.md                # Documentação principal do projeto
-├── LICENSE                  # Licença do repositório (MIT, Apache, etc.)
-├── .gitignore               # Arquivos/pastas ignorados pelo Git
+├── scripts/                # Lógica de atendimento e ofertas
+│   ├── atendimento.js       # Simulação de atendimento
+│   ├── qualificacao.js      # Perguntas de qualificação
+│   └── ofertas.js           # Ofertas principais e complementares
 │
-├── data/                    # Dados estruturados
-│   ├── framework.json        # Estrutura completa do assistente (A-F, regras, gatilhos)
-│   ├── mensagens.json        # Mensagens prontas para WhatsApp/Instagram
-│   └── exemplos.json         # Exemplos de casos simulados (academia, presente, trabalho)
+├── mensagens/              # Textos prontos para canais de venda
+│   ├── whatsapp.txt         # Mensagens comerciais para WhatsApp
+│   ├── instagram.txt        # Mensagens curtas para Instagram DM
+│   └── presente.txt         # Mensagens específicas para presentes
 │
-├── scripts/                 # Scripts de aplicação
-│   ├── atendimento.js        # Lógica de atendimento simulada
-│   ├── qualificacao.js       # Perguntas de qualificação
-│   └── ofertas.js            # Ofertas principais e complementares
+├── exemplos/               # Casos práticos documentados
+│   ├── academia.md          # Cliente buscando roupas para academia
+│   ├── presente.md          # Cliente buscando presente
+│   └── trabalho.md          # Cliente buscando roupas para trabalho
 │
-├── mensagens/               # Modelos de mensagens
-│   ├── whatsapp.txt          # Mensagens comerciais para WhatsApp
-│   ├── instagram.txt         # Mensagens curtas para Instagram DM
-│   └── presente.txt          # Mensagens específicas para presentes
+├── assets/                 # Recursos visuais
+│   ├── github-cover.png     # Capa personalizada para GitHub
+│   └── loja-lupo.png        # Imagem ilustrativa do cliente na loja
 │
-├── exemplos/                # Casos práticos
-│   ├── academia.md           # Cliente buscando roupas para academia
-│   ├── presente.md           # Cliente buscando presente
-│   └── trabalho.md           # Cliente buscando roupas para trabalho
-│
-└── assets/                  # Recursos visuais
-    ├── github-cover.png      # Capa personalizada para GitHub
-    └── loja-lupo.png         # Imagem ilustrativa do cliente na loja
+└── docs/                   # Documentação detalhada do projeto
+    ├── guia-uso.md          # Como usar o assistente de vendas
+    ├── fluxo-atendimento.md # Etapas A-F com exemplos
+    ├── estrutura-dados.md   # Explicação do framework.json
+    ├── aplicacao-comercial.md # Estratégias de venda e gatilhos
+    └── manual-vendedor.md   # Orientações práticas para equipe de loja
+
 ```
 
 ---
@@ -64,6 +78,16 @@ Apresentação de valor em 2 formatos: bom/ótimo/premium ou custo-benefício vs
 ---
 
 ![Loja Lupo](assets/loja-lupo.png)
+
+---
+
+## 📖 Documentação
+
+- [Guia de Uso](docs/guia-uso.md) → Como usar o assistente de vendas  
+- [Fluxo de Atendimento](docs/fluxo-atendimento.md) → Etapas A-F com exemplos práticos  
+- [Estrutura de Dados](docs/estrutura-dados.md) → Explicação do `framework.json`  
+- [Aplicação Comercial](docs/aplicacao-comercial.md) → Estratégias de venda e gatilhos  
+- [Manual do Vendedor](docs/manual-vendedor.md) → Orientações práticas para equipe de loja
 
 ---
 
