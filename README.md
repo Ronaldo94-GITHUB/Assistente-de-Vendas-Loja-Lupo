@@ -131,7 +131,7 @@ Presente
 
 ---
 
-![Loja Lupo](assets/loja-lupo.png)
+![Loja Lupo](assestsLUPO.png)
 
 ---
 
