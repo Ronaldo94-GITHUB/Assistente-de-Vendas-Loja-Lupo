@@ -4,6 +4,39 @@ Projeto Prompt Dio - LUPO
 Este projeto é um framework inteligente para atendimento comercial em lojas de moda, com foco na marca Lupo. Ele simula um assistente de vendas capaz de entender o interesse do cliente, diagnosticar oportunidades, sugerir ofertas e gerar mensagens prontas para canais como WhatsApp e Instagram.
 
 ---
+```
+AssistenteDeVendas-Lupo/
+│
+├── README.md                # Documentação principal do projeto
+├── LICENSE                  # Licença do repositório (MIT, Apache, etc.)
+├── .gitignore               # Arquivos/pastas ignorados pelo Git
+│
+├── data/                    # Dados estruturados
+│   ├── framework.json        # Estrutura completa do assistente (A-F, regras, gatilhos)
+│   ├── mensagens.json        # Mensagens prontas para WhatsApp/Instagram
+│   └── exemplos.json         # Exemplos de casos simulados (academia, presente, trabalho)
+│
+├── scripts/                 # Scripts de aplicação
+│   ├── atendimento.js        # Lógica de atendimento simulada
+│   ├── qualificacao.js       # Perguntas de qualificação
+│   └── ofertas.js            # Ofertas principais e complementares
+│
+├── mensagens/               # Modelos de mensagens
+│   ├── whatsapp.txt          # Mensagens comerciais para WhatsApp
+│   ├── instagram.txt         # Mensagens curtas para Instagram DM
+│   └── presente.txt          # Mensagens específicas para presentes
+│
+├── exemplos/                # Casos práticos
+│   ├── academia.md           # Cliente buscando roupas para academia
+│   ├── presente.md           # Cliente buscando presente
+│   └── trabalho.md           # Cliente buscando roupas para trabalho
+│
+└── assets/                  # Recursos visuais
+    ├── github-cover.png      # Capa personalizada para GitHub
+    └── loja-lupo.png         # Imagem ilustrativa do cliente na loja
+```
+
+---
 
 📦 Estrutura do Projeto
 O assistente segue uma lógica de atendimento dividida em etapas:
