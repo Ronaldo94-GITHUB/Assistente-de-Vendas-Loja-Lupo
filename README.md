@@ -12,7 +12,7 @@ Ele simula um assistente de vendas capaz de:
 
 --- 
 
-![Capa do Projeto](assets/github-cover.png)
+![Capa do Projeto](capalupo.png)
 
 ---
 ```
