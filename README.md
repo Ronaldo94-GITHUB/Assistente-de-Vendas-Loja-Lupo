@@ -77,7 +77,7 @@ Apresentação de valor em 2 formatos: bom/ótimo/premium ou custo-benefício vs
 
 ---
 
-![Loja Lupo](assets/loja-lupo.png)
+![Loja Lupo](lojalupo.png)
 
 ---
 
