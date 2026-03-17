@@ -1,7 +1,7 @@
 # Assistente-de-Vendas-Loja-Lupo
 Projeto Prompt Dio - LUPO
 
-é um framework inteligente para atendimento comercial em lojas de moda, com foco na marca **Lupo**.  
+É um framework inteligente para atendimento comercial em lojas de moda, com foco na marca **Lupo**.  
 Ele simula um assistente de vendas capaz de:
 
 - Diagnosticar oportunidades com base no interesse do cliente  
